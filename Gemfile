@@ -37,10 +37,16 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+# Twitter Bootstrap 
 gem 'bootstrap-sass'
 
+# Paperclip for image uploads
 #gem 'paperclip', '~> 3.0'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+
+# Amazon S3 gem
+gem 'aws-sdk', '~> 1.20.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
