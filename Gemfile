@@ -47,6 +47,12 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 # Amazon S3 gem
 gem 'aws-sdk', '~> 1.20.0'
 
+# JQuery Masonry gem
+gem 'masonry-rails', '~> 0.2.0'
+
+#
+gem 'jquery-turbolinks'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
